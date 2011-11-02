@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:rlv="http://schemas.android.com/apk/res/com.compal.mylifestyle"
+	android:orientation="vertical"
+	android:layout_width="240dip"
+	android:layout_height="400dip"
+	android:id="@+id/tasks_quickpick_2x2"
+	android:paddingLeft="17dip"
+	android:paddingTop="23dip"
+	>
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:rlv="http://schemas.android.com/apk/res/com.compal.mylifestyle"
+		android:layout_width="224dip"
+		android:layout_height="272dip"
+		android:background="@drawable/widget_background"
+		android:orientation="vertical"
+		android:layout_marginTop="30dip"
+		android:paddingLeft="10dip"
+		android:id="@+id/tasks_quickpick_2x2"
+		android:gravity="center"
+		>
+	    <TextView android:text="No internet connection,\nclick to refresh"
+	   		android:layout_height="wrap_content"
+	   		android:textAppearance="?android:attr/textAppearanceLarge"
+	   		android:id="@+id/noConnectionText"
+	   		android:layout_width="wrap_content"
+	   		android:textColor="@android:color/black">
+   		</TextView>	    
+	</LinearLayout>
+</LinearLayout>

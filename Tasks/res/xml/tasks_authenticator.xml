@@ -1,0 +1,7 @@
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="giohji.tasks.auth.TASKS_ACCOUNT"
+    android:icon="@drawable/icon"
+    android:smallIcon="@drawable/icon"
+    android:label="@string/TasksAccountManager"
+/>
+<!-- android:accountPreferences="@xml/account_preferences" -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:rlv="http://schemas.android.com/apk/res/com.compal.mylifestyle"
+	android:orientation="vertical"
+	android:layout_width="240dip"
+	android:layout_height="400dip"
+	android:id="@+id/tasks_quickpick_2x2"
+	android:paddingLeft="17dip"
+	android:paddingTop="23dip"
+	>
+		<LinearLayout android:layout_height="30dip" android:layout_width="224dip" android:clipChildren="true">
+			<Button android:text="Refresh" android:id="@+id/refreshButton" android:textSize="10sp" android:layout_width="75dip" android:layout_height="match_parent"></Button>
+			<Button android:text="Clear" android:id="@+id/clearButton" android:textSize="10sp" android:layout_width="75dip" android:layout_height="match_parent"></Button>
+			<Button android:text="New" android:id="@+id/newButton" android:textSize="10sp" android:layout_width="75dip" android:layout_height="match_parent"></Button>
+		</LinearLayout>
+		<LinearLayout 
+			android:layout_width="224dip"
+			android:layout_height="272dip"
+			android:id="@+id/tasks_quickpick_2x2"
+			android:background="@drawable/widget_background"
+			android:paddingLeft="10dip"
+			android:paddingTop="10dip"
+			android:orientation="vertical">
+	        <RelativeLayout android:layout_height="51dip" android:layout_width="206dip" android:clipChildren="true">
+	            <ImageButton android:layout_alignParentLeft="true" android:id="@+id/checkbox1" android:layout_height="match_parent" android:layout_width="wrap_content" android:gravity="center" android:src="@drawable/checkbox_off" android:background="@android:color/transparent"></ImageButton>
+	            <TextView android:id="@+id/title1" android:text="TextView" android:textColor="#000000" android:layout_alignParentTop="true" android:textSize="14sp" android:layout_toRightOf="@id/checkbox1" android:layout_height="20sp" android:paddingTop="2sp" android:layout_width="wrap_content"></TextView>
+	            <TextView android:id="@+id/notes1" android:text="TextView" android:textColor="#666666" android:layout_below="@id/title1" android:textSize="10sp" android:layout_toRightOf="@id/checkbox1" android:layout_height="14sp" android:layout_width="wrap_content"></TextView>
+	            <TextView android:id="@+id/date1" android:text="TextView" android:textColor="#666666" android:layout_below="@id/notes1" android:textSize="10sp" android:layout_toRightOf="@id/checkbox1" android:layout_height="14sp" android:layout_width="wrap_content"></TextView>
+	        </RelativeLayout>
+	        <RelativeLayout android:layout_height="51dip" android:layout_width="206dip" android:clipChildren="true">
+	            <ImageButton android:layout_alignParentLeft="true" android:id="@+id/checkbox2" android:layout_height="match_parent" android:layout_width="wrap_content" android:gravity="center" android:src="@drawable/checkbox_off" android:background="@android:color/transparent"></ImageButton>
+	            <TextView android:id="@+id/title2" android:text="TextView" android:textColor="#000000" android:layout_alignParentTop="true" android:textSize="14sp" android:layout_toRightOf="@id/checkbox2" android:layout_height="20sp" android:paddingTop="2sp" android:layout_width="wrap_content"></TextView>
+	            <TextView android:id="@+id/notes2" android:text="TextView" android:textColor="#666666" android:layout_below="@id/title2" android:textSize="10sp" android:layout_toRightOf="@id/checkbox2" android:layout_height="14sp" android:layout_width="wrap_content"></TextView>
+	            <TextView android:id="@+id/date2" android:text="TextView" android:textColor="#666666" android:layout_below="@id/notes2" android:textSize="10sp" android:layout_toRightOf="@id/checkbox2" android:layout_height="14sp" android:layout_width="wrap_content"></TextView>
+	        </RelativeLayout>
+	        <RelativeLayout android:layout_height="51dip" android:layout_width="206dip" android:clipChildren="true">
+	            <ImageButton android:layout_alignParentLeft="true" android:id="@+id/checkbox3" android:layout_height="match_parent" android:layout_width="wrap_content" android:gravity="center" android:src="@drawable/checkbox_off" android:background="@android:color/transparent"></ImageButton>
+	            <TextView android:id="@+id/title3" android:text="TextView" android:textColor="#000000" android:layout_alignParentTop="true" android:textSize="14sp" android:layout_toRightOf="@id/checkbox3" android:layout_height="20sp" android:paddingTop="2sp" android:layout_width="wrap_content"></TextView>
+	            <TextView android:id="@+id/notes3" android:text="TextView" android:textColor="#666666" android:layout_below="@id/title3" android:textSize="10sp" android:layout_toRightOf="@id/checkbox3" android:layout_height="14sp" android:layout_width="wrap_content"></TextView>
+	            <TextView android:id="@+id/date3" android:text="TextView" android:textColor="#666666" android:layout_below="@id/notes3" android:textSize="10sp" android:layout_toRightOf="@id/checkbox3" android:layout_height="14sp" android:layout_width="wrap_content"></TextView>
+	        </RelativeLayout>
+	        <RelativeLayout android:layout_height="51dip" android:layout_width="206dip" android:clipChildren="true">
+	            <ImageButton android:layout_alignParentLeft="true" android:id="@+id/checkbox4" android:layout_height="match_parent" android:layout_width="wrap_content" android:gravity="center" android:src="@drawable/checkbox_off" android:background="@android:color/transparent"></ImageButton>
+	            <TextView android:id="@+id/title4" android:text="TextView" android:textColor="#000000" android:layout_alignParentTop="true" android:textSize="14sp" android:layout_toRightOf="@id/checkbox4" android:layout_height="20sp" android:paddingTop="2sp" android:layout_width="wrap_content"></TextView>
+	            <TextView android:id="@+id/notes4" android:text="TextView" android:textColor="#666666" android:layout_below="@id/title4" android:textSize="10sp" android:layout_toRightOf="@id/checkbox4" android:layout_height="14sp" android:layout_width="wrap_content"></TextView>
+	            <TextView android:id="@+id/date4" android:text="TextView" android:textColor="#666666" android:layout_below="@id/notes4" android:textSize="10sp" android:layout_toRightOf="@id/checkbox4" android:layout_height="14sp" android:layout_width="wrap_content"></TextView>
+	        </RelativeLayout>
+	        <RelativeLayout android:layout_height="51dip" android:layout_width="206dip" android:clipChildren="true">
+	            <ImageButton android:layout_alignParentLeft="true" android:id="@+id/checkbox5" android:layout_height="match_parent" android:layout_width="wrap_content" android:gravity="center" android:src="@drawable/checkbox_off" android:background="@android:color/transparent"></ImageButton>
+	            <TextView android:id="@+id/title5" android:text="TextView" android:textColor="#000000" android:layout_alignParentTop="true" android:textSize="14sp" android:layout_toRightOf="@id/checkbox5" android:layout_height="20sp" android:paddingTop="2sp" android:layout_width="wrap_content"></TextView>
+	            <TextView android:id="@+id/notes5" android:text="TextView" android:textColor="#666666" android:layout_below="@id/title5" android:textSize="10sp" android:layout_toRightOf="@id/checkbox5" android:layout_height="14sp" android:layout_width="wrap_content"></TextView>
+	            <TextView android:id="@+id/date5" android:text="TextView" android:textColor="#666666" android:layout_below="@id/notes5" android:textSize="10sp" android:layout_toRightOf="@id/checkbox5" android:layout_height="14sp" android:layout_width="wrap_content"></TextView>
+	        </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="30dip" android:layout_width="224dip" android:clipChildren="true">
+            <Button android:text="Previous" android:id="@+id/previousButton" android:textSize="10sp" android:layout_width="112dip" android:layout_height="match_parent"></Button>
+            <Button android:text="Next" android:id="@+id/nextButton" android:textSize="10sp" android:layout_width="112dip" android:layout_height="match_parent"></Button>
+		</LinearLayout>
+</LinearLayout>
